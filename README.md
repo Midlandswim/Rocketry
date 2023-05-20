@@ -2,7 +2,7 @@
 Work for BCA AstroKnights and Personal Rocketry Projekts
 
 Researcher: Wilson Dhalwani and the BCA AstroKnights <br />
-Advisor: Mr. Joesph Barbetta (BCA) & Mr. Eric Paul (BCA) & Mr. Victor Samarakone <br />
+Advisor: Mr. Joesph Barbetta (BCA) & Mr. Eric Paul (BCA) & Mr. Victor Samarakone (BCA) <br />
 Context: The Bergen County Academies' AstroKnights Competitive Rocketry Team and Personal Projekts <br />
 Projekt Name: General Rocketry Projekts <br />
 Start Date: September 30, 2022 <br />
