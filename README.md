@@ -1,5 +1,5 @@
 # Rocketry Projekts
-Work for AstroKnights and Personal Rocketry Projekts
+Work for BCA AstroKnights and Personal Rocketry Projekts
 
 Researcher: Wilson Dhalwani and the BCA AstroKnights <br />
 Advisor: Mr. Joesph Barbetta (BCA) & Mr. Eric Paul (BCA) & Mr. Victor Samarakone <br />
