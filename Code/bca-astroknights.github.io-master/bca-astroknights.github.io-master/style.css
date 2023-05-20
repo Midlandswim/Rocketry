@@ -1,0 +1,177 @@
+:root {
+    --accentDark: #8a791c;
+    --accentLight: #d9bc21;
+    --backgroundDark: rgb(20, 20, 20);
+    --backgroundLight: rgb(128, 128, 128);
+    --fontColor: #000;
+}
+
+body {
+    text-align: center;
+    background-attachment: fixed;
+    background: linear-gradient(-45deg, var(--backgroundLight), var(--backgroundDark));
+    background-size: 1500% 1500%;
+    animation: bg 20s ease infinite;
+    font-family: 'Space Mono', monospace;
+    color: --fontColor;
+    font-weight: 400;
+}
+
+h1 {
+    color: var(--accentLight);
+    font-weight: 700;
+    font-size: 2.25em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+p, li {
+    font-size: 1.3em;
+}
+
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 51%, #ddd 50%) right;
+    background-size: 200%;
+    transition: .2s ease-out;
+}
+
+a:hover {
+    color: black;
+    background-position: left;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav {
+    overflow: hidden;
+    background: linear-gradient(90deg, var(--accentDark), var(--accentLight));
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+
+iframe[src*=youtube] {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+
+#main {
+    border-radius: 20px;
+    display: inline-block;
+    padding: 2%;
+    margin-bottom: 5%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    line-height: 2.75em;
+}
+
+#main a {
+    font-size: 1.3em;
+}
+
+#rocketImage {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    left: 45%;
+    animation: 1.25s ease-in 0s 1 rocket;
+    bottom: 125%;
+}
+
+.sketchfab-embed-wrapper iframe {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 50%
+}
+
+.blog h1, h2 {
+    text-align: center;
+}
+
+.blog a {
+    font-size: 1.2em;
+}
+
+.blog {
+    text-align: left;
+}
+
+.fade {
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    opacity: 1;
+}
+
+/* Mobile CSS rules */
+
+@media only screen and (max-width: 801px) {
+    .sketchfab-embed-wrapper iframe {
+        width: 90%;
+    }
+    #rocketImage {
+        width: 30%;
+        left: 35%;
+    }
+}
+
+@keyframes bg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 80% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes rocket {
+    from {
+        bottom: 0%;
+    }
+    to {
+        bottom: 100%;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 760 1100" style="0 0 760 1100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C4AF5B;}
+	.st1{fill:#211D1E;}
+	.st2{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M380.1,0C329,41.9,246.9,120.9,189,245c-90.4,193.7-64.1,373.2-51,439.3C111.9,702.2,57.3,745.2,27,821
+	c-54.7,136.9,17.2,262.6,27,279c53.2-54,106.4-107.9,159.6-161.9h333.8c46.1,54,92.2,107.9,138.3,161.9c6-7.4,105.8-136,52.3-279
+	c-29.8-79.5-91.1-121.3-114.9-135.8c14.5-55.5,55.7-241.3-38.1-440.2C523,113.6,430.3,36.2,380.1,0z"/>
+<circle class="st1" cx="377.5" cy="406.8" r="170.2"/>
+<circle class="st2" cx="377" cy="406.8" r="132.7"/>
+<circle class="st1" cx="376.2" cy="406.8" r="121.2"/>
+</svg>
